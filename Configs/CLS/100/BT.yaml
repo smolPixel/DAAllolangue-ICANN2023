@@ -17,3 +17,4 @@ tokenizer: "tweetTokenizer"
 prob_reg: 0.5
 
 lan_to: en
+fix_dataset: False
