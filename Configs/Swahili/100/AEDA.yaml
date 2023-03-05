@@ -20,3 +20,5 @@ num_layers_classifier: 2
 dropout_classifier: 0.3
 nb_epoch_classifier: 100 #50
 batch_size_classifier: 16
+
+fix_dataset: False
