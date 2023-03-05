@@ -1,0 +1,19 @@
+---
+dataset: Swahili
+classifier: mbert
+computer: labo
+split: 0
+dataset_size: 100
+algo: dummy
+random_seed: 7
+selector: random
+max_seq_length: 64
+meta_strategy: dummy
+one_shot: False
+
+hidden_size_classifier: 1024
+embed_size_classifier: 300
+num_layers_classifier: 2
+dropout_classifier: 0.3
+nb_epoch_classifier: 50
+batch_size_classifier: 16

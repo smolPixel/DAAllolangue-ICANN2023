@@ -1,0 +1,16 @@
+---
+dataset: CLS
+classifier: mbert
+computer: labo
+split: 1
+dataset_size: 500
+algo: BacktranslationT5
+random_seed: 7
+selector: random
+max_seq_length: 64
+meta_strategy: dummy
+one_shot: False
+nb_epoch_classifier: 20
+batch_size_classifier: 16
+
+lan_to: en

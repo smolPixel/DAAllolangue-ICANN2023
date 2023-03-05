@@ -1,0 +1,14 @@
+---
+dataset: koHateSpeech
+classifier: mbert
+computer: labo
+split: 0
+dataset_size: 0
+algo: dummy
+random_seed: 7
+selector: random
+max_seq_length: 64
+meta_strategy: dummy
+one_shot: False
+nb_epoch_classifier: 20
+batch_size_classifier: 16

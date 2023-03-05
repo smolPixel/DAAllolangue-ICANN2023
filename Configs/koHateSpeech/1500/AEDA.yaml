@@ -1,0 +1,19 @@
+---
+dataset: koHateSpeech
+classifier: mbertAEDA
+computer: labo
+split: 0 #1
+dataset_size: 1500
+algo: AEDA
+random_seed: 7
+selector: random
+max_seq_length: 64
+meta_strategy: dummy
+one_shot: False
+
+prob_reg: 0.5
+tokenizer: "tweetTokenizer"
+
+nb_epoch_classifier: 40 #20
+batch_size_classifier: 16
+

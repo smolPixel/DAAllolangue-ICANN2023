@@ -1,0 +1,22 @@
+---
+dataset: koHateSpeech
+classifier: mbert
+computer: labo
+split: 1
+dataset_size: 500
+algo: mCBERT
+random_seed: 7
+selector: random
+max_seq_length: 32
+meta_strategy: dummy
+one_shot: False
+nb_epoch_classifier: 30
+batch_size_classifier: 16
+
+tokenizer: "tweetTokenizer"
+
+nb_epoch_algo: 4
+learning_rate: 0.00005
+batch_size_algo: 32
+
+fix_dataset: False

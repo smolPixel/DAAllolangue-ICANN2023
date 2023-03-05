@@ -1,0 +1,21 @@
+---
+dataset: CLS
+classifier: mbert
+computer: labo
+split: 1
+dataset_size: 1000
+algo: EDA
+random_seed: 7
+selector: random
+max_seq_length: 64
+meta_strategy: dummy
+one_shot: False
+tokenizer: "tweetTokenizer"
+
+nb_epoch_classifier: 15
+batch_size_classifier: 2
+
+alpha_sr: 0 #0.1
+alpha_ri: 0 #0.1
+alpha_rs: 0.1
+alpha_rd: 0.1

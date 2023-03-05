@@ -1,0 +1,28 @@
+---
+dataset: CLS
+classifier: mbert
+computer: labo
+split: 1
+dataset_size: 0
+algo: VAE
+random_seed: 7
+selector: random
+max_seq_length: 64
+meta_strategy: dummy
+one_shot: False
+nb_epoch_classifier: 25
+batch_size_classifier: 16
+#tokenizer: "tweetTokenizer"
+tokenizer: "mwordPiece"
+
+hidden_size_algo: 1024
+word_dropout: 0.3
+dropout_algo: 0.3
+latent_size: 15
+embeddings: None
+freeze_embeddings: False
+tie_embeddings: False
+tie_encoders: False
+nb_epoch_algo: 30
+x0: 15
+sampling_strategy: random

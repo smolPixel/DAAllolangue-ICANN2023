@@ -1,0 +1,14 @@
+---
+dataset: MPhasisFr
+classifier: mbert
+computer: labo
+split: 0
+dataset_size: 1000
+algo: dummy
+random_seed: 7
+selector: random
+max_seq_length: 64
+meta_strategy: dummy
+one_shot: False
+nb_epoch_classifier: 6
+batch_size_classifier: 16

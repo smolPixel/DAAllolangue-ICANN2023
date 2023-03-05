@@ -1,0 +1,8 @@
+import pandas as pd
+
+name='train.tsv'
+
+df=pd.read_csv(name, sep='\t', index_col=0)
+df=df.drop(columns='index')
+
+df.to_csv(name, sep='\t')

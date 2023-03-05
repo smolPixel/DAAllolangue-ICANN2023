@@ -1,0 +1,35 @@
+---
+dataset: koHateSpeech
+classifier: mbert
+computer: labo
+split: 1
+dataset_size: 0
+algo: PVAE
+random_seed: 7
+selector: random
+max_seq_length: 64
+meta_strategy: dummy
+one_shot: False
+nb_epoch_classifier: 20
+batch_size_classifier: 32
+
+prob_reg: 0.5
+tokenizer: "mwordPiece" #"PtweetTokenizer"
+strat_pretraining: "autoencoder"
+language: 'ko'
+
+nb_epoch_algo_pretraining: 10
+hidden_size_algo: 2048
+batch_size_algo: 16
+word_dropout: 0.3
+dropout_algo: 0.3
+latent_size: 512
+embeddings: None
+freeze_embeddings: False
+tie_embeddings: False
+tie_encoders: False
+nb_epoch_algo: 20
+testing_param: False
+x0: 30
+k: 0.25
+sampling_strategy: random
