@@ -1,6 +1,6 @@
 ---
 dataset: CLS
-classifier: mbertAEDA
+classifier: mbert
 computer: labo
 split: 1
 dataset_size: 100
@@ -19,3 +19,5 @@ prob_reg: 0.5
 nb_epoch_algo: 4
 learning_rate: 0.00005
 batch_size_algo: 4
+
+fix_dataset: False
